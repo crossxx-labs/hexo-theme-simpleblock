@@ -19,8 +19,8 @@ mixin article(post)
         h2
           a(href=url_for(post.path))= post.title
       else
-        small.right
-          a(target='_blank', href=sourceOfPost(post, theme.source_url)) 查看源代码
+        //- small.right
+        //-   a(target='_blank', href=sourceOfPost(post, theme.source_url)) 查看源代码
         h1= post.title
 
     .article-meta.clearfix
