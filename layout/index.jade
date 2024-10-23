@@ -40,7 +40,9 @@ mixin article(post)
               a(href=url_for(tag.path))= tag.name
           - });
 
-    .markdown-body!= post.content
+    //- .markdown-body!= post.content
+    if !page.posts
+      .markdown-body!= post.content
 
     if !page.posts && theme.duoshuo
       .ds-thread(data-thread-key=commentKey(post), data-title=post.title, data-url=post.permalink)
@@ -68,9 +70,14 @@ block body
       strong 归档 #{page.year} 年 #{page.month} 月
 
   if page.posts
-    - page.posts.each(function(post) {
-      +article(post)
-    - });
+    //- - page.posts.each(function(post) {
+    //-   +article(post)
+    //- - });
+    ul.post-titles
+      - page.posts.each(function(post) {
+        li
+          a(href=url_for(post.path))= post.title
+      - });
 
     .archive-pagination
       .paginator!= fixPaginator(paginator({prev_text: '&laquo;', next_text: '&raquo;'}))
