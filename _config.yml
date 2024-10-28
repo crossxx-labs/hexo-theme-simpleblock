@@ -23,8 +23,23 @@ right_menus:
 
 ## Banners && Widgets
 banners:
+  # jade: |
+  #   a(href='https://github.com/jysperm/hexo-theme-simpleblock') 与精子同款的博客主题 simpleblock 现已发布！
+
   jade: |
-    a(href='https://github.com/jysperm/hexo-theme-simpleblock') 与精子同款的博客主题 simpleblock 现已发布！
+    ul
+      li
+        | 精子同款的博客主题 
+        a(href='https://github.com/jysperm/hexo-theme-simpleblock') simpleblock
+        | 现已发布！
+      li
+        | 另一个推荐的主题 
+        a(href='https://github.com/some/other-theme') 其他主题
+        | 也很不错！
+      li
+        | 想要了解更多关于 
+        a(href='https://hexo.io') Hexo
+        | 的信息吗？访问他们的官方网站！
 
 widgets:
   -
