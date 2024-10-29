@@ -53,3 +53,39 @@ article {
     }
   }
 }
+
+ul {
+  padding-left: 15px;
+  li {
+    margin: 10px 0;
+  }
+}
+
+ul.post-titles {
+
+  // list-style: none;           // Removes default bullet points
+  // padding: 0;                 // Removes default padding
+  // margin: 0;      
+
+  .border();
+  margin-bottom: 20px;
+  padding: 15px 40px;
+  // padding-left: 15px;
+
+  li {
+    margin: 10px 0;           // Adds spacing between each post title
+  }
+
+  a {
+    color: #333;              // Sets the color for links
+    text-decoration: none;    // Removes underline
+    // font-weight: bold;        // Makes the titles bold
+    font-size: 1.1em;         // Slightly increases font size
+    transition: color 0.3s;   // Smooth color transition on hover
+
+    &:hover {
+      color: #007acc;         // Changes color on hover
+      text-decoration: underline; // Adds underline on hover
+    }
+  }
+}

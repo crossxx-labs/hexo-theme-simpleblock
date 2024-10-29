@@ -20,9 +20,13 @@
 
 开发：
 
+
     npm install
     bower install
     gulp build
+    gulp release
+
+checkout the dir release/
 
 ## 自定义
 
