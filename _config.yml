@@ -13,13 +13,17 @@ license:
 
 ## Menus
 menus:
-  'Home': /
+  '首页': /
+  'Windows': /
+  'Mac': /
+  'Android': /
+  'iOS': /
 
 right_menus:
-  'RSS': /atom.xml
-  'fork on Github':
+  # 'RSS': /atom.xml
+  '机场推荐':
     target: '_blank'
-    href: 'hexo-theme-simpleblock'
+    href: '/'
 
 ## Banners && Widgets
 banners:
@@ -29,31 +33,25 @@ banners:
   jade: |
     ul
       li
-        | 精子同款的博客主题 
-        a(href='https://github.com/jysperm/hexo-theme-simpleblock') simpleblock
-        | 现已发布！
-      li
-        | 另一个推荐的主题 
-        a(href='https://github.com/some/other-theme') 其他主题
-        | 也很不错！
-      li
-        | 想要了解更多关于 
-        a(href='https://hexo.io') Hexo
-        | 的信息吗？访问他们的官方网站！
+        | 稳定高速老牌clash订阅推荐 
+        a(href='https://a.aiguobit.com' target='_blank') 倚天剑clash
+        | 多年机场技术沉淀值得信赖！
 
 widgets:
   -
     markdown: |
-      Simple Block 是一个基于线框设计的简单的 Hexo 主题，拆分自 [精子的博客](https://jysperm.me)。
-      支持使用 Jade 或 Markdown 来向边栏添加小部件，或向正文前添加横幅。
+      Clash是目前最流行用户体验最好的网络代理工具，支持自动切换路线、按规则分流等功能，
+      完美满足大部分网友的外网上网需求。
 
-      技术栈：
+      支持的协议：
 
-      * Jade - 页面模板
-      * Less/Sass - 页面样式
-      * Bower - 前端包管理器
-      * CoffeeScript - Hexo 拓展脚本
-      * Gulp - 编译工具
+      * shadowsocks(R)
+      * VMESS
+      * VLESS
+      * Trojan
+      * Hysteria(2)
+      * TUIC
+      * WireGuard
 
   -
     tags: true

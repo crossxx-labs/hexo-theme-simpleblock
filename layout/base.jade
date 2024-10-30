@@ -21,13 +21,15 @@ mixin widget(widget)
   else if widget.copyright
     .widget.text-content
       p
-        | 该博客使用基于 &nbsp;
-        a(href='http://hexo.io') Hexo
-        | &nbsp; 的 &nbsp;
-        a(href='https://github.com/jysperm/hexo-theme-simpleblock') simpleblock
-        | &nbsp; 主题。博客内容使用 &nbsp;
-        a(href=theme.license.url) #{theme.license.name}
-        | &nbsp; 授权发布。最后生成于 #{date(Date.now(), 'YYYY-MM-DD')}.
+        //- | 该博客使用基于 &nbsp;
+        //- a(href='http://hexo.io') Hexo
+        //- | &nbsp; 的 &nbsp;
+        //- a(href='https://github.com/jysperm/hexo-theme-simpleblock') simpleblock
+        //- | &nbsp; 主题。博客内容使用 &nbsp;
+        //- a(href=theme.license.url) #{theme.license.name}
+        //- | &nbsp; 授权发布。最后生成于 #{date(Date.now(), 'YYYY-MM-DD')}.
+        | 此网站仅供调试参考，请勿用于非法用途！请各位爱国守法文明上网，谢谢！
+        | 生成于 #{date(Date.now(), 'YYYY-MM-DD')}.
   else
     .widget.text-content
       +widget-inter(widget)
