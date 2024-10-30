@@ -29,7 +29,6 @@ mixin widget(widget)
         //- a(href=theme.license.url) #{theme.license.name}
         //- | &nbsp; 授权发布。最后生成于 #{date(Date.now(), 'YYYY-MM-DD')}.
         | 此网站仅供调试参考，请勿用于非法用途！请各位爱国守法文明上网，谢谢！
-        | 生成于 #{date(Date.now(), 'YYYY-MM-DD')}.
   else
     .widget.text-content
       +widget-inter(widget)
