@@ -33,7 +33,7 @@ banners:
   jade: |
     ul
       li
-        | 稳定高速老牌clash订阅推荐 
+        | 推荐稳定高速老牌clash订阅 
         a(href='https://a.aiguobit.com' target='_blank') 倚天剑clash
         | 多年机场技术沉淀值得信赖！
 
