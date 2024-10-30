@@ -14,10 +14,10 @@ license:
 ## Menus
 menus:
   '首页': /
-  'Windows': /tags/windows
-  'Mac': /tags/mac
-  'Android': /tags/android
-  'iOS': /tags/ios
+  'Windows': /tags/Windows
+  'Mac': /tags/Mac
+  'Android': /tags/Android
+  'iOS': /tags/iOS
 
 right_menus:
   # 'RSS': /atom.xml
