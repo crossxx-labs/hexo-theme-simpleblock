@@ -14,10 +14,10 @@ license:
 ## Menus
 menus:
   '首页': /
-  'Windows': /
-  'Mac': /
-  'Android': /
-  'iOS': /
+  'Windows': /tags/windows
+  'Mac': /tags/mac
+  'Android': /tags/android
+  'iOS': /tags/ios
 
 right_menus:
   # 'RSS': /atom.xml
@@ -33,9 +33,8 @@ banners:
   jade: |
     ul
       li
-        | 推荐稳定高速老牌clash订阅 
+        | 多年技术沉淀值得信赖！推荐稳定高速老牌机场
         a(href='https://a.aiguobit.com' target='_blank') 倚天剑clash
-        | 多年机场技术沉淀值得信赖！
 
 widgets:
   -
