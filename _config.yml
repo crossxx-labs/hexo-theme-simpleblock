@@ -33,7 +33,7 @@ banners:
   jade: |
     ul
       li
-        | 多年技术沉淀值得信赖！推荐稳定高速老牌机场
+        | 多年技术沉淀值得信赖！推荐稳定高速老牌机场 &nbsp;
         a(href='https://a.aiguobit.com' target='_blank') 倚天剑clash
 
 widgets:
