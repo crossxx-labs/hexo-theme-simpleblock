@@ -23,7 +23,7 @@ right_menus:
   # 'RSS': /atom.xml
   '机场推荐':
     target: '_blank'
-    href: '/'
+    href: 'https://a.hidexx.com'
 
 ## Banners && Widgets
 banners:
@@ -42,15 +42,7 @@ widgets:
       Clash是目前最流行用户体验最好的网络代理工具，支持自动切换路线、按规则分流等功能，
       完美满足大部分网友的外网上网需求。
 
-      支持的协议：
-
-      * shadowsocks(R)
-      * VMESS
-      * VLESS
-      * Trojan
-      * Hysteria(2)
-      * TUIC
-      * WireGuard
+      支持的协议： shadowsocks(R)、 VMESS、 VLESS、 Trojan、 Hysteria(2)、 TUIC、 WireGuard
 
   -
     tags: true
